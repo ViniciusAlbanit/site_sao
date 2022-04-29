@@ -1,0 +1,108 @@
+@charset "UFT_8";
+@font-face {
+    font-family: 'swo';
+    src: url(imagens/SAOWelcomeTT-Bold\ -\ Copia.ttf);
+}
+
+:root{
+    color: #015958, #023535, #008F8C,#D8FFDB,#C7FFED;
+    font-family: 'swo', sans-serif;
+}
+
+body{
+    background-image: url(imagens/aincrad.jpg);
+    margin: 0%; 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-indent: 50px;
+    text-align: justify;
+}
+
+h1{
+    font-family: 'swo', sans-serif;
+    text-align: center;
+    color: white;
+    background-color: #023535;
+    margin: 0%;
+    padding: 5px;
+}
+.historia{
+    font-size: 25px;
+    line-height: 35px;
+    text-indent: 30px;
+}
+h2{
+    font-family: 'swo', sans-serif;
+    font-size: 40px;
+}
+.titulo2{
+    color: black;
+    padding-left: 20px;
+    color: #167474;
+    text-align: center;
+    font-size: 50px;
+}
+#titulokl{
+    color: #000000;
+}
+header{
+    text-align: center;
+    background-color: #015958;
+    
+}
+header > p{
+    font-size: 20px;
+}
+nav > p > a{
+    text-decoration: none;
+    color: #C7FFED;
+    transition-delay: 0.5s;
+}
+nav > p > a:hover{
+    background-color: #478584;
+    padding: 4px;
+    border-radius: 10%;
+    color: #000000;
+}
+nav > p{
+    display: inline;
+    padding: 30px;
+    height: 300px;
+    font-size: 20px;
+}
+main{
+    margin: auto;
+    width: 800px;
+}
+.imgk{
+    float: left;
+    height: 400px;
+}
+#historiak{
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+.imga{
+    float: right;
+    height: 400px;
+}
+#historiaa{
+    font-size: 30px;
+}
+#imgkl{
+    float: left;
+    height: 400px;
+}
+#historiakl{
+    font-size: 30px;
+}
+#imgal{
+    float: right;
+}
+#historiaal{
+    font-size: 30px;
+}
+
+    
+
