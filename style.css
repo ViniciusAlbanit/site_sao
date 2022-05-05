@@ -14,7 +14,7 @@ body{
     margin: 0%; 
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size:100% 100%;
     text-indent: 50px;
     text-align: justify;
 }
@@ -73,35 +73,32 @@ nav > p{
 }
 main{
     margin: auto;
-    width: 800px;
+    min-width: 200px;
+    max-width: 800px;
+    position: relative;
+}
+.historia_char{
+    font-size: 30px;
 }
 .imgk{
     float: left;
     height: 400px;
 }
-#historiak{
-    font-size: 30px;
-    margin-bottom: 35px;
-}
 .imga{
     float: right;
     height: 400px;
-}
-#historiaa{
-    font-size: 30px;
 }
 #imgkl{
     float: left;
     height: 400px;
 }
-#historiakl{
-    font-size: 30px;
-}
 #imgal{
     float: right;
 }
-#historiaal{
-    font-size: 30px;
+#imgel{
+    float: left;
+    height: 520px;
+    width: 600px;
 }
 
     
